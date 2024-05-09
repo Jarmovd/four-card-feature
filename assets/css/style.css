@@ -84,6 +84,11 @@
   padding: 50px 0 90px 0;
   align-self: center;
 }
+@media (min-width: 375px) {
+  .intro {
+    padding: 50px 0 50px 0;
+  }
+}
 .intro h1 {
   font-size: 24px;
   font-weight: 200;
@@ -138,4 +143,9 @@ body main {
 body main p {
   color: hsl(229, 6%, 66%);
   line-height: 1.8;
+}
+@media (min-width: 375px) {
+  body main p {
+    line-height: 1.5;
+  }
 }/*# sourceMappingURL=style.css.map */
